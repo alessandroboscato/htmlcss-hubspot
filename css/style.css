@@ -11,10 +11,6 @@
   clear: both;
 }
 
-body {
-  width: 1200px;
-}
-
 .conteiner {
   width: 80%;
   margin: auto;
@@ -30,22 +26,28 @@ body {
 .nav-global li {
 display: inline-block;
 list-style: none;
-background-color: red;
 }
 
 .nav-top {
-
+  background-color: #F5F8FA;
+  border-bottom: 1px solid black;
+  height: 75px;
+  line-height: 75px;
 }
 
-.nav-general {
-float: left;
-}
+  .nav-general {
+  float: left;
+  }
 
-.nav-user {
-float: right
-}
+  .nav-user {
+  float: right
+  }
 .nav-bottom {
-
+  height: 75px;
+  line-height: 75px;
+}
+.nav-bottom img {
+  vertical-align: middle;
 }
 
 .header-main {
