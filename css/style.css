@@ -28,6 +28,12 @@ display: inline-block;
 list-style: none;
 }
 
+.nav-global li a {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 75px%;
+}
+
 .nav-top {
   background-color: #F5F8FA;
   border-bottom: 1px solid black;
