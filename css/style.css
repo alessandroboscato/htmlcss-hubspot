@@ -11,6 +11,10 @@
   clear: both;
 }
 
+body {
+  width: 1200px;
+}
+
 .conteiner {
   width: 80%;
   margin: auto;
@@ -23,12 +27,22 @@
 
 /* intestazione */
 
-.nav.global {
-
+.nav-global li {
+display: inline-block;
+list-style: none;
+background-color: red;
 }
 
 .nav-top {
 
+}
+
+.nav-general {
+float: left;
+}
+
+.nav-user {
+float: right
 }
 .nav-bottom {
 
@@ -71,7 +85,7 @@
 }
 
 .resume {
-  
+
 }
 
 /* corpo */
