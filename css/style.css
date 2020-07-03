@@ -2,6 +2,7 @@
  box-sizing: border-box;
  margin: 0;
  padding: 0;
+ font-family: helvetica;
  }
 
 .clearfix::after {
@@ -9,3 +10,60 @@
   display: table;
   clear: both;
 }
+
+/* intestazione */
+
+.nav.global {
+
+}
+
+.nav-top {
+
+}
+.nav-bottom {
+
+}
+
+.header-main {
+
+}
+
+/* intestazione */
+
+/* corpo */
+
+.incipit {
+
+}
+
+.proposal {
+
+}
+
+.proposal-top {
+
+}
+
+.proposal-middle{
+
+}
+
+.score {
+
+}
+
+.partners {
+
+}
+
+/* corpo */
+
+/* pdp */
+.footer-main {
+
+}
+
+.footer-bottom {
+  
+}
+/* pdp */
