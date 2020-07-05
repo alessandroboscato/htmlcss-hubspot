@@ -165,6 +165,7 @@ main h2 {
 background-color: #fff;
 border-radius: 5px;
 box-shadow: 5px 2px 2px #ECF1F4;
+margin-bottom: 50px;
 }
 
 .essentials{
@@ -183,14 +184,17 @@ box-shadow: 5px 2px 2px #ECF1F4;
 
 .proposal img {
   display: inline-block;
-  width: 100px;
+  width: 120px;
+  height: 120px;
 }
-.proposal-middle{
-
+.aside{
+width: 30%;
 }
 
-.score {
-
+.mid {
+width: 30%;
+margin-left: 3%;
+margin-right: 3%;
 }
 
 .main-bottom {
