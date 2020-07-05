@@ -14,6 +14,7 @@
 .conteiner {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 
 .conteiner-small {
@@ -80,9 +81,27 @@ button {
   color: #FE7859;
 }
 .header-main {
-
+  position: relative;
+  height: 600px;
+background-image: url(../img/jumbotron.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
+.banner {
+  width: 50%;
+  position: absolute;
+}
+
+.row {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background-position: bottom;
+  background-color: #B0EBE4;
+  border: 2px solid #306068;
+}
 /* intestazione */
 
 /* corpo */
