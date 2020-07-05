@@ -25,6 +25,7 @@
 /* intestazione */
 
 /* navigation  */
+
 .nav-top li,.nav-bottom li {
 display: inline-block;
 list-style: none;
@@ -87,6 +88,7 @@ button {
 .big {
   padding: 20px 30px;
 }
+/*/ navigation  */
 
 /* header main */
 
@@ -94,7 +96,7 @@ button {
   position: relative;
   height: 600px;
 background-image: url(../img/jumbotron.png);
-background-color: #FFF2EF;
+background-color: #FFF3EF;
 background-repeat: no-repeat;
 background-size: contain;
 background-position: right;
@@ -133,12 +135,27 @@ p.margin-bottom {
   background-color: #B0EBE4;
   border: 2px solid #306068;
 }
-/* intestazione */
+/* /header main */
+
+/* /intestazione */
 
 /* corpo */
+main h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
 
 .incipit {
+color: #33475B;
+}
 
+.incipit .conteiner-small {
+  text-align: center;
+}
+
+.conteiner-small img {
+  width: 30%;
+  margin-top: 50px;
 }
 
 .proposal {
