@@ -160,6 +160,7 @@ main h2 {
   margin-top: 50px;
 }
 
+/* proposte commerciali */
 .proposal {
   display: inline-block;
 background-color: #fff;
@@ -168,24 +169,27 @@ box-shadow: 5px 2px 2px #ECF1F4;
 margin-bottom: 50px;
 }
 
-.essentials{
-  width: 25%;
-  float: left;
-}
+  .essentials{
+    width: 25%;
+    float: left;
+    padding: 50px 25px 50px 75px;
+    text-align: center;
+  }
 
-.essentials button {
-  float: left
-}
+  .essentials button {
+    display: inline-block;
+  }
 
-.details {
-  width: 75%;
-  float: left;
-}
+  .details {
+    width: 75%;
+    float: left;
+    padding: 50px;
+  }
 
 .proposal img {
   display: inline-block;
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
 }
 .aside{
 width: 30%;
@@ -197,6 +201,37 @@ margin-left: 3%;
 margin-right: 3%;
 }
 
+.proposal h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.proposal p{
+  margin-bottom: 20px;
+  line-height: 25px;
+
+}
+
+.details hr {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  margin-left: 35px;
+}
+
+.details li,i {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.proposal li {
+  list-style: none;
+}
+.proposal i {
+  color: #FE7959;
+}
+/* proposte commerciali */
 .main-bottom {
 
 }
