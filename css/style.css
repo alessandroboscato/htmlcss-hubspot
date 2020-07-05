@@ -161,6 +161,7 @@ main h2 {
 }
 
 .proposal {
+  display: inline-block;
 background-color: #fff;
 border-radius: 5px;
 box-shadow: 5px 2px 2px #ECF1F4;
@@ -168,10 +169,16 @@ box-shadow: 5px 2px 2px #ECF1F4;
 
 .essentials{
   width: 25%;
+  float: left;
+}
+
+.essentials button {
+  float: left
 }
 
 .details {
   width: 75%;
+  float: left;
 }
 
 .proposal img {
