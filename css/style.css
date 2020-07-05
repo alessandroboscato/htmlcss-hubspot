@@ -94,7 +94,7 @@ button {
 
 .header-main {
   position: relative;
-  height: 600px;
+  height: 683px;
 background-image: url(../img/jumbotron.png);
 background-color: #FFF3EF;
 background-repeat: no-repeat;
@@ -130,7 +130,7 @@ p.margin-bottom {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 75px;
+  height: 82px;
   background-position: bottom;
   background-color: #B0EBE4;
   border: 2px solid #306068;
