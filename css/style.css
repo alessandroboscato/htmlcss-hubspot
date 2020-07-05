@@ -191,17 +191,22 @@ margin-bottom: 50px;
   width: 130px;
   height: 130px;
 }
+
 .aside{
 width: 30%;
+text-align: center;
+padding: 40px;
 }
 
 .mid {
 width: 30%;
-margin-left: 3%;
-margin-right: 3%;
+margin-left: 4%;
+margin-right: 5%;
+text-align: center;
+
 }
 
-.proposal h3 {
+.aside, h3 {
   font-size: 20px;
   margin-bottom: 20px;
   display: inline-block;
@@ -210,7 +215,6 @@ margin-right: 3%;
 .proposal p{
   margin-bottom: 20px;
   line-height: 25px;
-
 }
 
 .details hr {
