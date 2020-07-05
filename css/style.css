@@ -23,15 +23,22 @@
 
 /* intestazione */
 
-.nav-global li {
+.nav-top li,.nav-bottom li {
 display: inline-block;
 list-style: none;
+padding: 0 10px;
 }
 
-.nav-global li a {
+.nav-top li a,.nav-bottom li a {
   display: inline-block;
   text-decoration: none;
   line-height: 75px%;
+  color: #3F5464;
+}
+
+.nav-general li:first-child {
+  line-height: normal;
+  border-right: 1px solid black;
 }
 
 .nav-top {
@@ -41,13 +48,18 @@ list-style: none;
   line-height: 75px;
 }
 
-  .nav-general {
-  float: left;
-  }
+.nav-general {
+float: left;
+}
 
-  .nav-user {
-  float: right
-  }
+.nav-top i:only-child {
+  color: #14A7BF;
+}
+
+.nav-user {
+float: right
+}
+
 .nav-bottom {
   height: 75px;
   line-height: 75px;
@@ -56,6 +68,17 @@ list-style: none;
   vertical-align: middle;
 }
 
+button {
+  font-family: helvetica;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #FE7859;
+  color: #F5F8FA;
+}
+.white {
+  background-color: #F5F8FA;
+  color: #FE7859;
+}
 .header-main {
 
 }
