@@ -24,6 +24,7 @@
 
 /* intestazione */
 
+/* navigation  */
 .nav-top li,.nav-bottom li {
 display: inline-block;
 list-style: none;
@@ -73,24 +74,54 @@ button {
   font-family: helvetica;
   padding: 10px;
   border-radius: 5px;
+  border: none;
   background-color: #FE7859;
   color: #F5F8FA;
 }
 .white {
   background-color: #F5F8FA;
   color: #FE7859;
+  border: 1px solid #FE7859;
 }
+
+.big {
+  padding: 20px 30px;
+}
+
+/* header main */
+
 .header-main {
   position: relative;
   height: 600px;
 background-image: url(../img/jumbotron.png);
+background-color: #FFF2EF;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
+background-position: right;
 }
 
 .banner {
   width: 50%;
   position: absolute;
+  top: 75px;
+  color: #33475B;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+h1.margin-bottom {
+  font-size: 50px;
+}
+
+p.margin-bottom {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.banner p:last-child {
+  font-size: 10px;
 }
 
 .row {
