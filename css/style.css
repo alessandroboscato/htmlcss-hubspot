@@ -98,7 +98,7 @@ button {
 background-image: url(../img/jumbotron.png);
 background-color: #FFF3EF;
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 background-position: right;
 }
 
@@ -140,16 +140,18 @@ p.margin-bottom {
 /* /intestazione */
 
 /* corpo */
+
+main {
+  color: #33475B;
+  background-color: #F5F8FA;
+}
+
 main h2 {
   text-transform: capitalize;
   font-size: 30px;
 }
 
-.incipit {
-color: #33475B;
-}
-
-.incipit .conteiner-small {
+.conteiner .conteiner-small {
   text-align: center;
 }
 
@@ -159,13 +161,23 @@ color: #33475B;
 }
 
 .proposal {
-
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 5px 2px 2px #ECF1F4;
 }
 
-.proposal-top {
-
+.essentials{
+  width: 25%;
 }
 
+.details {
+  width: 75%;
+}
+
+.proposal img {
+  display: inline-block;
+  width: 100px;
+}
 .proposal-middle{
 
 }
