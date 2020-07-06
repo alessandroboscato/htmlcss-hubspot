@@ -196,6 +196,7 @@ margin-bottom: 50px;
 width: 30%;
 text-align: center;
 padding: 40px;
+float: left;
 }
 
 .mid {
@@ -203,14 +204,9 @@ width: 30%;
 margin-left: 4%;
 margin-right: 5%;
 text-align: center;
-
+float: left;
 }
 
-.aside, h3 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-}
 
 .proposal p{
   margin-bottom: 20px;
