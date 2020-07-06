@@ -323,7 +323,7 @@ padding: 50px 50px 20px 50px;
 .box-customers {
   width: 25%;
   float: left;
-  padding: 37px;
+  padding: 37px 37px 0 37px;
   margin-left: 5%;
 }
 .customers {
@@ -349,10 +349,17 @@ padding: 50px 50px 20px 50px;
 
 /* partnership */
 
-.resume {
-
+.bottom {
+  height: 400px;
+  background-image: url(../img/woman.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
 }
 
+.bottom .banner {
+  width: 40%;
+}
 /* corpo */
 
 /* pdp */
