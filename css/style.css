@@ -334,6 +334,7 @@ padding: 50px 50px 20px 50px;
 .customers img {
   max-width: 150px;
   max-height: 150px;
+  vertical-align: middle;
 }
 
 .box-customers h2 {
@@ -344,7 +345,6 @@ padding: 50px 50px 20px 50px;
 .row-customers {
   float: left;
   width: 100%;
-  vertical-align: middle;
 }
 
 /* partnership */
@@ -363,8 +363,22 @@ padding: 50px 50px 20px 50px;
 /* corpo */
 
 /* pdp */
-.footer-main {
+footer {
+  background-color: #32495A;
+  color: #969797;
+}
+.column {
+  width: calc(99% / 4);
+  text-transform: capitalize;
+  display: inline-block;
+}
 
+.column li {
+  list-style: none;
+}
+
+.column ul li:first-child {
+  color: #fff;
 }
 
 .footer-bottom {
