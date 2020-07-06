@@ -259,10 +259,31 @@ padding: 40px 40px 5px 40px;
   margin-top: 30px;
 }
 /* proposte commerciali */
-.main-bottom {
+/* tabella */
+.score {
+  background: rgb(3,168,184);
+  background: linear-gradient(86deg, rgba(3,168,184,1) 0%, rgba(0,177,176,1) 50%, rgba(0,184,171,1) 100%);
+  color: #fff;
+}
+
+.row-top {
+border-bottom: 1px solid #fff;
+}
+
+.row-bottom {
+
+}
+.box {
+  width: 25%;
 
 }
 
+.in {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+/* tabella */
 .partners {
 
 }
