@@ -319,15 +319,33 @@ padding: 50px 50px 20px 50px;
 /* tabella */
 
 /* partnership */
-.customers {
-  width: 75%;
+
+.box-customers {
+  width: 25%;
   float: left;
+  padding: 37px;
+  margin-left: 5%;
+}
+.customers {
+  width: 60%;
+  float: right;
+  vertical-align: middle;
 }
 .customers img {
   max-width: 150px;
   max-height: 150px;
 }
 
+.box-customers h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.row-customers {
+  float: left;
+  width: 100%;
+  vertical-align: middle;
+}
 
 /* partnership */
 
