@@ -380,12 +380,12 @@ footer {
   list-style: none;
 }
 
-.column a, .languages a, .right a {
+.column a, .column i, .languages a, .right a {
   text-decoration: none;
   color: #CBD6E2;
 }
 
-.column ul li:first-child {
+.column ul li:first-child, .box-footer p {
   color: #fff;
 }
 
@@ -423,5 +423,8 @@ footer .column {
   float: right;
 }
 
+.box-footer i {
+  padding: 0 4px;
+}
 
 /* pdp */
