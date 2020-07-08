@@ -397,7 +397,7 @@ footer {
   color: #CBD6E2;
 }
 
-.column ul li:first-child, .box-footer p {
+.column h4, .box-footer p {
   color: #fff;
 }
 
