@@ -54,13 +54,12 @@ padding: 0 10px;
 .nav-top li a,.nav-bottom li a {
   display: inline-block;
   text-decoration: none;
-  line-height: 75px%;
   color: #3F5464;
 }
 
-.nav-general li:first-child {
-  line-height: normal;
-  border-right: 1px solid black;
+.nav-general i:last-child {
+  border-right: 1px solid #3F5464;
+  padding-right: 20px;
 }
 
 .nav-top i:only-child {
@@ -265,7 +264,7 @@ padding: 40px 40px 5px 40px;
   text-align: left;
 }
 
-.clearfix button {
+main .clearfix button {
   margin-top: 30px;
 }
 /* proposte commerciali */
